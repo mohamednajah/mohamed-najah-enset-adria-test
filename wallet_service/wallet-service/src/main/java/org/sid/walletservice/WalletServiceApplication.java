@@ -1,13 +1,13 @@
-package com.sid.adria_test;
+package org.sid.walletservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AdriaTestApplication {
+public class WalletServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AdriaTestApplication.class, args);
+		SpringApplication.run(WalletServiceApplication.class, args);
 	}
 
 }
